@@ -11,13 +11,13 @@ public class CoffeShop {
     private boolean clean;
     private boolean stockFull;
 
-    public CoffeShop(String name, String adress, String phone, int maximumCapacity) {
+    public CoffeShop(String name, String adress, String phone, int maximumCapacity, boolean open) {
         this.name = name;
         this.adress = adress;
         this.phone = phone;
         this.maximumCapacity = maximumCapacity;
-        this.open = false;
         this.currentcapacity = 0;
+        this.open = open;
         this.clean = true;
         this.stockFull = true;
     }

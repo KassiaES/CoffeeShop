@@ -4,6 +4,8 @@ import entity.CoffeShop;
 
 public class CoffeShopServiceImpl implements CoffeShopService {
 
+
+
     @Override
     public void toOpen(CoffeShop coffeShop) {
         coffeShop.setOpen(true);
