@@ -1,5 +1,5 @@
 # CoffeeShop
-Java program with all tests and 90% coverage
+Java program with all tests and 100% coverage
 
 
 ### 
