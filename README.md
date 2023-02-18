@@ -1,4 +1,4 @@
-# CoffeShop
+# CoffeeShop
 Java program with all tests and 90% coverage
 
 
