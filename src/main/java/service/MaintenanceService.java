@@ -1,9 +1,9 @@
 package service;
 
-import entity.CoffeShop;
+import entity.CoffeeShop;
 
 public interface MaintenanceService {
 
-    void cleanUp (CoffeShop coffeShop);
-    void stockReplenishment(CoffeShop coffeShop);
+    void cleanUp (CoffeeShop coffeeShop);
+    void stockReplenishment(CoffeeShop coffeeShop);
 }

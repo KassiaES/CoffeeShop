@@ -1,25 +1,25 @@
 package service;
 
-import entity.CoffeShop;
+import entity.CoffeeShop;
 
 public class MaintenanceServiceImpl implements MaintenanceService{
     @Override
-    public void cleanUp(CoffeShop coffeShop) {
-        if (coffeShop.isOpen()) {
-                coffeShop.setClean(false);
+    public void cleanUp(CoffeeShop coffeeShop) {
+        if (coffeeShop.isOpen()) {
+                coffeeShop.setClean(false);
         } else  {
-            coffeShop.setClean(true);
+            coffeeShop.setClean(true);
         }
 
 
     }
 
     @Override
-    public void stockReplenishment(CoffeShop coffeShop) {
-        if (coffeShop.isOpen()) {
-            coffeShop.setStockFull(false);
+    public void stockReplenishment(CoffeeShop coffeeShop) {
+        if (coffeeShop.isOpen()) {
+            coffeeShop.setStockFull(false);
         } else {
-            coffeShop.setStockFull(true);
+            coffeeShop.setStockFull(true);
         }
     }
 

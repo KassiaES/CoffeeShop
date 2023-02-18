@@ -1,6 +1,6 @@
 package entity;
 
-public class CoffeShop {
+public class CoffeeShop {
 
     private String name;
     private String adress;
@@ -11,7 +11,7 @@ public class CoffeShop {
     private boolean clean;
     private boolean stockFull;
 
-    public CoffeShop(String name, String adress, String phone, int maximumCapacity, boolean open) {
+    public CoffeeShop(String name, String adress, String phone, int maximumCapacity, boolean open) {
         this.name = name;
         this.adress = adress;
         this.phone = phone;
@@ -88,7 +88,7 @@ public class CoffeShop {
 
     @Override
     public String toString() {
-        return "CoffeShop{" +
+        return "CoffeeShop{" +
                 "name='" + name + '\'' +
                 ", adress='" + adress + '\'' +
                 ", phone='" + phone + '\'' +
